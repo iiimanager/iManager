@@ -7,12 +7,12 @@ const Board = db.define('board', {
     unique: true,
     allowNull: false
   },
-  email: {
-    type: Sequelize.STRING
-  },
-  lists: {
-    type: Sequelize.ARRAY(Sequelize.STRING)
-  }
+  // email: {
+  //   type: Sequelize.STRING    //userID
+  // },
+  // lists: {
+  //   type: Sequelize.ARRAY(Sequelize.STRING)  //boardId in lists
+  // }
 })
 
 module.exports = Board
