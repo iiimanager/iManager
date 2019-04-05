@@ -27,5 +27,6 @@ form div {
 
 .board-root {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  /* margin: 0 5px; */
 }

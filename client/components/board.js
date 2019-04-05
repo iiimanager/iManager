@@ -119,7 +119,7 @@ class Board extends React.Component {
       <div className="board-general">
         <h1>Here is our board</h1>
         <h3>Welcome, {email}</h3>
-        <div className=".board-root">
+        <div className="board-root">
         <DragDropContext onDragEnd={this.onDragEnd}>
                 <Droppable droppableId="droppable">
                     {(provided, snapshot) => (
