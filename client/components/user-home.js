@@ -13,8 +13,8 @@ export const UserHome = props => {
     <div>
       <h3>Welcome, {email}</h3>
       <div>
-          <h2>Click to see board UI >></h2>
-          <Link to="/board">here's my only one board</Link>
+          <h2>Here's should be all user boardds, but we have only one  for now <br /> Click to see board UI >>></h2>
+          <Link to="/board">here's my only one board </Link>
           
         </div>
     </div>
