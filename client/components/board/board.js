@@ -66,7 +66,7 @@ class Board extends React.Component {
 
     state = {
         items: getItems(10),
-        selected: getItems(5, 10)
+        selected: getItems(20, 30)
     };
 
     id2List = {
@@ -200,5 +200,12 @@ export default connect(mapState)(Board)
  * PROP TYPES
  */
 Board.propTypes = {
-  email: PropTypes.string
+  email: PropTypes.string,
+//   lists: PropTypes.arrayOf(
+//       PropTypes.shape({ _id: PropTypes.string.isRequired })
+//     ).isRequired,
+//     boardId: PropTypes.string.isRequired,
+//     boardTitle: PropTypes.string.isRequired,
+//     boardColor: PropTypes.string.isRequired,
+//     dispatch: PropTypes.func.isRequired
 }
