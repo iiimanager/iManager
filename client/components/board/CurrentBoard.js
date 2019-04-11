@@ -62,7 +62,7 @@ const getListStyle = isDraggingOver => ({
     width: 250
 });
 
-class Board extends React.Component {
+class CurrentBoard extends React.Component {
 
     state = {
         items: getItems(10),
@@ -193,13 +193,13 @@ const mapState = state => {
   }
 }
 
-export default connect(mapState)(Board)
+export default connect(mapState)(CurrentBoard)
 // export default Board;
 
 /**
  * PROP TYPES
  */
-Board.propTypes = {
+CurrentBoard.propTypes = {
   email: PropTypes.string,
 //   lists: PropTypes.arrayOf(
 //       PropTypes.shape({ _id: PropTypes.string.isRequired })

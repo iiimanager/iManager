@@ -6,5 +6,5 @@
 export {default as Navbar} from './navbar'
 export {default as UserHome} from './user-home'
 export {default as CurrentBoard} from './board/CurrentBoard'
-export {default as BoardContainer} from './board/BoardConteiner'
+export {default as BoardContainer} from './board/BoardContainer'
 export {Login, Signup} from './auth-form'
