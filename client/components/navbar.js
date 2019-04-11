@@ -4,9 +4,11 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
 
+// import {} from 'react-beautiful-dnd'
+
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
-    <h1>BOILERMAKER</h1>
+    <h1>iManager</h1>
     <nav>
       {isLoggedIn ? (
         <div>

@@ -19,3 +19,14 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.board-general {
+  background-color: aquamarine;
+  color: red;
+}
+
+.board-root {
+  display: flex;
+  justify-content: start;
+  /* margin: 0 5px; */
+}

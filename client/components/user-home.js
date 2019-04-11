@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
 
 /**
  * COMPONENT
@@ -11,6 +12,11 @@ export const UserHome = props => {
   return (
     <div>
       <h3>Welcome, {email}</h3>
+      <div>
+          <h2>Here's should be all user boardds, but we have only one  for now <br /> Click to see board UI >>></h2>
+          <Link to="/boards">here's my only one board </Link>
+          
+        </div>
     </div>
   )
 }
